@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AnswerRouteInformation</class>
+ <widget class="QWidget" name="AnswerRouteInformation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QLabel" name="Title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>144</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background-color: rgb(39, 100, 54);
+font: 60pt &quot;Oswald&quot;;
+border-bottom: 1px solid #000000;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>816</y>
+     <width>1280</width>
+     <height>144</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(39, 100, 54);
+	font: 30pt &quot;Oswald&quot;;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top: 1px solid #000000;
+}
+
+QPushButton::Hover{
+	border-color: rgb(0, 0, 0);
+	border: 5px solid #000000;
+}
+
+QPushButton::Pressed{
+	border-color: rgb(0, 0, 0);
+	border: 5px solid;
+	background-color: rgb(90,152,101);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Timetable">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>144</y>
+     <width>640</width>
+     <height>672</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Map">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>144</y>
+     <width>640</width>
+     <height>672</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

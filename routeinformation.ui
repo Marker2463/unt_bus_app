@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RouteInformation</class>
+ <widget class="QWidget" name="RouteInformation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="Title">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color: rgb(39, 100, 54);
+font: 60pt &quot;Oswald&quot;;
+border-bottom: 1px solid #000000;</string>
+     </property>
+     <property name="text">
+      <string>Route Information</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QComboBox" name="RouteName">
+         <property name="minimumSize">
+          <size>
+           <width>544</width>
+           <height>96</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox{
+	color: rgb(0, 0, 0);
+	font: 30pt &quot;Oswald&quot;;
+	background-color: white;
+	placeholder-text-color: rgb(156, 163, 175);
+	border-radius: 20px;
+	border: 1px solid #000000;
+}
+
+QComboBox::drop-down {
+	width: 0px;
+}
+
+QComboBox QAbstractItemView {
+    color: rgb(0,0,0);
+    font: 30pt 'Oswald';
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Submit">
+         <property name="minimumSize">
+          <size>
+           <width>544</width>
+           <height>96</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(39, 100, 54);
+	font: 30pt &quot;Oswald&quot;;
+	border-radius: 20px;
+	border: 1px solid #000000;
+}
+
+QPushButton::Hover{
+	border-color: rgb(0, 0, 0);
+	border: 5px solid #000000;
+}
+
+QPushButton::Pressed{
+	border-color: rgb(0, 0, 0);
+	border: 5px solid;
+	background-color: rgb(90,152,101);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Submit</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QPushButton" name="Back">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>144</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(39, 100, 54);
+	font: 30pt &quot;Oswald&quot;;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top: 1px solid #000000;
+}
+
+QPushButton::Hover{
+	border-color: rgb(0, 0, 0);
+	border: 5px solid #000000;
+}
+
+QPushButton::Pressed{
+	border-color: rgb(0, 0, 0);
+	border: 5px solid;
+	background-color: rgb(90,152,101);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
